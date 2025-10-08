@@ -1,0 +1,19 @@
+{
+"personeelsgegevens": {
+"Naam": "Piet de Jong",
+"Werktijd": 240,
+"Beroepstype": "Mechanisch Monteur",
+"Bevoegdheid": "Senior",
+"Specialist_in_attracties": ["Mega Spin", "River Rapids", "Twister"],
+"Pauze_opsplitsen": false,
+"Max_fysieke_belasting": 40
+},
+"weergegevens": { "temperatuur": 20, "kans_op_regen": 30 },
+"dagtaken": [
+{"omschrijving": "Hoge prio spec", "duur": 45, "prioriteit": "Hoog", "beroepstype": "Mechanisch Monteur", "bevoegdheid": "Senior", "fysieke_belasting": null, "attractie": "Twister", "is_buitenwerk": true},
+{"omschrijving": "Hoge prio", "duur": 120, "prioriteit": "Hoog", "beroepstype": "Mechanisch Monteur", "bevoegdheid": "Senior", "fysieke_belasting": null, "attractie": null, "is_buitenwerk": false},
+{"omschrijving": "Pauze", "duur": 30},
+{"omschrijving": "Administratietijd", "aantal_taken": 2, "duur": 4}
+],
+"totale_duur": 199
+}
