@@ -1,0 +1,28 @@
+src/
+datapunt9/
+__init__.py
+models.py # Dataklassen (Task, Personnel, Weather)
+weather_api.py # Weer-API client (Open-Meteo of pluggable)
+rules.py # Losse ‘pure’ functies: filtering, prioritering, helpers
+planner.py # Orkestreert algoritme + bouwt output JSON
+io_adapters.py # In/Out: DB/JSON-helpers voor taken & personeel
+acceptance.py # Formatter naar exact acceptatie-JSON schema
+app.py # CLI: run planner voor een personeelslid
+
+
+tests/
+test_rules.py
+test_planner.py
+test_weather.py
+fixtures/
+tasks.json
+personeel_piet.json
+personeel_diego.json
+
+
+config/
+settings.example.toml
+
+
+output/
+voorbeeld_dagtaken_piet.json
