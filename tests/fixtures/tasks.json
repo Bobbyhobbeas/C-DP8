@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "omschrijving": "Hoge prio spec",
+    "duur": 45,
+    "prioriteit": "Hoog",
+    "beroepstype": "Mechanisch Monteur",
+    "bevoegdheid": "Senior",
+    "attractie": "Twister",
+    "is_buitenwerk": true
+  },
+  {
+    "id": 2,
+    "omschrijving": "Hoge prio",
+    "duur": 120,
+    "prioriteit": "Hoog",
+    "beroepstype": "Mechanisch Monteur",
+    "bevoegdheid": "Senior",
+    "is_buitenwerk": false
+  }
+]
